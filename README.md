@@ -19,13 +19,13 @@ The server fetches latest videos async after every 10 minutes and saves it to th
     -Run the server using python mange.py runserver
 
 
-api                The main Django app/api containing the models, views, serializers etc
+**api**                The main Django app/api containing the models, views, serializers etc
    
-db.Postgres        Postgres database housing the data of the videos fetched
+**db.Postgres**        Postgres database housing the data of the videos fetched**
 
-manage.py          Python code used for starting the app by establishing DRF server
+**manage.py**          Python code used for starting the app by establishing DRF server
 
-requirements.txt   Requirements file
+**requirements.txt**   Requirements file
 
 
 To fetch new videos, visit the '/video' endpoint:
